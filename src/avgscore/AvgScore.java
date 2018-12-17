@@ -42,7 +42,7 @@ package avgscore;
 			System.err.println("FileNotFoundException: " + e.getMessage());
 		} catch (IOException e) {
 			System.out.println("Problem reading file.");
-    		System.err.println("IOException: " + e.getMessage());
+                        System.err.println("IOException: " + e.getMessage());
     	}
 	}	
  }
